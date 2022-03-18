@@ -1,0 +1,38 @@
+PODS:
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
+  - Masonry (1.1.0)
+  - MJRefresh (3.7.5)
+  - MSYLog (0.1.0):
+    - CocoaLumberjack
+  - MSYTableView (1.0.0):
+    - Masonry
+    - MJRefresh
+
+DEPENDENCIES:
+  - Masonry
+  - MSYLog (from `../`)
+  - MSYTableView
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - Masonry
+    - MJRefresh
+    - MSYTableView
+
+EXTERNAL SOURCES:
+  MSYLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  MSYLog: f3690b1bb9b90d7878831e963e839aaf257a7a6d
+  MSYTableView: a0c5776f4f5eb88b5902a8abd6bcd1ea80e328b5
+
+PODFILE CHECKSUM: 9b6a8b9f6aadf8f9dfb514932cd02d8f9b2d9027
+
+COCOAPODS: 1.11.2

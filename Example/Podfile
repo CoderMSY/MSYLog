@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MSYLog_Example' do
+  pod 'MSYLog', :path => '../'
+  pod 'MSYTableView'
+  pod 'Masonry'
+
+  target 'MSYLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module MSYLog {
+  umbrella header "MSYLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
